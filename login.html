@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-    <h1>Welcome to the Login Page</h1>
+
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+
+            <!-- Left side - Image -->
+            <div class="col-12 col-md-7 p-0">
+                <img src="/image/ChatGPT Image Aug 10, 2026, 01_18_14 PM.png" class="img-fluid w-100 h-100 object-fit-cover" alt="My Image">
+            </div>
+
+            <!-- Right side - Content -->
+            <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                <div>
+                    <div class="bg-black text-light text-center py-1 mb-5 rounded">
+                        <h1 class="mb-0">SM Supper Line</h1>
+                    </div>
+                    <h4>Welcome bus booking</h6>
+                    <p>sing in your account</p>
+                    <br>
+                    <div>
+                        <h6>Email/User name</h6>
+                        <input type="text" placeholder="Enter your Email or User name" class="w-100">
+                    </div>
+                    <br>
+                    <div>
+                        <h6>Pasword</h6>
+                        <input type="password" placeholder="Enter your pasword">
+                    </div>
+                    <br>
+                    <div class="row min-vh-10">
+                        <div class="col-12 col-md-6">
+                            <input type="checkbox">Remember me
+                        </div>
+                        <div class="col-12 col-md-6 text-end">
+                            <p>forgot pasword?</p>
+                        </div>
+                    </div>
+                    <button class="account-button w-100 bg-primary py-1 mb-5" type="submit" onclick="btnLoginOnAction()">Log In</button>
+                    <br>
+                        <p>Don't have any Account? <a href="/Sing up.html" class="btn btn-outline-primary btn-sm">Sign Up</a></p>
+
+                        <a href="/index.html" inputmode="back to home" class="btn btn-dark">back to home</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
     <script src="/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

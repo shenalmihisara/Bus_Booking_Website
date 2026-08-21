@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div id="response"></div>
+
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+
+            <!-- Left side - Image -->
+            <div class="col-12 col-md-7 p-0">
+                <img src="/image/ChatGPT Image Aug 10, 2026, 01_18_14 PM.png"
+                    class="img-fluid w-100 h-100 object-fit-cover" alt="My Image">
+            </div>
+
+            <!-- Right Side Login -->
+            <!-- Right Side - Premium Admin Login -->
+            <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-4">
+
+                <div class="card border-0 shadow-lg rounded-4 p-4 w-100"
+                    style="max-width: 420px; background: rgba(255,255,255,0.98);">
+
+                    <!-- Brand -->
+                    <div class="text-center mb-4">
+
+                        <div class="bg-black text-white rounded-3 d-inline-block px-4 py-2 shadow-sm">
+                            <h1 class="mb-0 fs-5 fw-bold">
+                                SM Super Line
+                            </h1>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Admin Header -->
+                    <div class="text-center mb-4">
+
+                        <!-- Admin Icon -->
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="bg-dark text-white rounded-circle d-flex
+                            align-items-center justify-content-center shadow" style="width: 65px; height: 65px;">
+
+                                <img src="/image/admin.png" alt="Admin" style="width: 80px; height: 80px;">
+
+                            </div>
+                        </div>
+
+                        <h4 class="fw-bold mb-2">
+                            Admin Login
+                        </h4>
+
+                        <p class="text-secondary small mb-0">
+                            Secure access to the administration panel
+                        </p>
+
+                    </div>
+
+
+                    <!-- Login Type -->
+                    <div class="d-flex justify-content-center gap-2 mb-4">
+
+                        <a href="/login.html" class="btn btn-outline-primary btn-sm px-4 rounded-pill">
+
+                            <i class="bi bi-person"></i>
+                            User Login
+
+                        </a>
+
+                        <a href="/admin_login.html" class="btn btn-dark btn-sm px-4 rounded-pill">
+
+                            <i class="bi bi-shield-lock"></i>
+                            Admin Login
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Admin PIN -->
+                    <div class="mb-4">
+
+                        <label for="password" class="form-label fw-semibold small">
+
+                            Admin PIN
+
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text bg-light border-end-0">
+
+                                <i class="bi bi-key-fill"></i>
+
+                            </span>
+
+                            <input id="password" type="password" placeholder="Enter Admin PIN"
+                                class="form-control border-start-0 py-2">
+
+                        </div>
+
+                        <div class="form-text small">
+                            Enter your secure administrator PIN.
+                        </div>
+
+                    </div>
+
+
+                    <!-- Login Button -->
+                    <button id="btnLogin" type="button" class="btn btn-dark w-100 py-2 rounded-3
+                   fw-semibold shadow-sm mb-4">
+
+                        <i class="bi bi-box-arrow-in-right me-1"></i>
+
+                        Admin Login
+
+                    </button>
+
+
+                    <!-- Divider -->
+                    <div class="d-flex align-items-center mb-3">
+
+                        <hr class="flex-grow-1">
+
+                        <span class="px-3 text-secondary small">
+                            OR
+                        </span>
+
+                        <hr class="flex-grow-1">
+
+                    </div>
+
+
+                    <!-- Back Home -->
+                    <div class="text-center">
+
+                        <a href="/index.html" class="btn btn-outline-dark btn-sm rounded-pill px-4">
+
+                            <i class="bi bi-house me-1"></i>
+                            Back to Home
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/app.js"></script>
+    <script src="/loggin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

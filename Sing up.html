@@ -23,51 +23,194 @@
             </div>
 
             <!-- Right side - Content -->
-            <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
-                <div>
-                    <div class="bg-black text-light text-center py-1 mb-5 rounded">
-                        <h1 class="mb-0">SM Supper Line</h1>
-                    </div>
-                    <h4>Welcome bus booking</h6>
-                        <p>sing up your account</p>
-                        <br>
-                        <div class="row min-vh-10">
-                            <div class="col-12 col-md-6">
-                                <h6>full Name *</h6>
-                                <input id="txtFullName" type="text" placeholder="Enter Your full Name">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row min-vh-10">
-                            <div class="col-12 col-md-6">
-                                <h6>Email *</h6>
-                                <input id="txtEmail" type="text" name="email" id="email" class="form--control ps-2  checkUser"
-                                    placeholder="Your Email">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row min-vh-10">
-                            <div class="col-12 col-md-6">
-                                <h6 class="text-start">User Name *</h6>
-                                <input id="txtUserName" type="text" placeholder="Enter User Name">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row min-vh-10">
-                            <div class="col-12 col-md-6">
-                                <h6 class="text-start">Pasword *</h6>
-                                <input id="txtPassword" type="password" placeholder="Enter Pasword">
-                            </div>
-                        </div>
-                        <br>
-                        <button id="btnSingUp" class="account-button w-100 bg-primary py-1 mb-5" type="submit">Sing up</button>
-                        <br>
-                        <p>Alrady have an account? <a href="/login.html" class="btn btn-outline-primary btn-sm">Sign
-                                in</a></p>
+            <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-4">
 
-                        <a href="/index.html" inputmode="back to home" class="btn btn-dark">back to home</a>
+                <div class="card border-0 shadow-lg rounded-4 p-4 w-100"
+                    style="max-width: 430px; background: rgba(255,255,255,0.98);">
+
+                    <!-- Brand -->
+                    <div class="text-center mb-4">
+
+                        <div class="bg-black text-white rounded-3 d-inline-block px-4 py-2 shadow-sm">
+                            <h1 class="mb-0 fs-5 fw-bold">
+                                SM Super Line
+                            </h1>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Welcome -->
+                    <div class="text-center mb-4">
+
+                        <h4 class="fw-bold mb-1">
+                            Create Your Account
+                        </h4>
+
+                        <p class="text-secondary small mb-0">
+                            Join SM Super Line and book your journey
+                        </p>
+
+                    </div>
+
+
+                    <!-- Full Name -->
+                    <div class="mb-3">
+
+                        <label for="txtFullName" class="form-label fw-semibold small">
+                            Full Name
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-person"></i>
+                            </span>
+
+                            <input id="txtFullName" type="text" placeholder="Enter your Full Name"
+                                class="form-control border-start-0">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="mb-3">
+
+                        <label for="txtEmail" class="form-label fw-semibold small">
+                            Email Address
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-envelope"></i>
+                            </span>
+
+                            <input id="txtEmail" type="email" placeholder="Enter your Email"
+                                class="form-control border-start-0">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Username -->
+                    <div class="mb-3">
+
+                        <label for="txtUserName" class="form-label fw-semibold small">
+                            Username
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-person-badge"></i>
+                            </span>
+
+                            <input id="txtUserName" type="text" placeholder="Choose a Username"
+                                class="form-control border-start-0">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="mb-4">
+
+                        <label for="txtPassword" class="form-label fw-semibold small">
+                            Password
+                        </label>
+
+                        <div class="input-group">
+
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-lock"></i>
+                            </span>
+
+                            <input id="txtPassword" type="password" placeholder="Create a Password"
+                                class="form-control border-start-0">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Terms -->
+                    <div class="form-check mb-4">
+
+                        <input class="form-check-input" type="checkbox" id="terms">
+
+                        <label class="form-check-label small text-secondary" for="terms">
+
+                            I agree to the
+                            <a href="#" class="text-primary text-decoration-none">
+                                Terms & Conditions
+                            </a>
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- Register Button -->
+
+                    <button id="btnSingUp" type="submit"
+                        class="btn btn-primary w-100 py-2 rounded-3 fw-semibold shadow-sm">
+
+                        <i class="bi bi-person-plus"></i>
+                        Create Account
+
+                    </button>
+
+
+                    <!-- Divider -->
+
+                    <div class="d-flex align-items-center my-4">
+
+                        <hr class="flex-grow-1">
+
+                        <span class="px-3 text-secondary small">
+                            OR
+                        </span>
+
+                        <hr class="flex-grow-1">
+
+                    </div>
+
+
+                    <!-- Login -->
+
+                    <p class="text-center small text-secondary mb-3">
+
+                        Already have an account?
+
+                        <a href="/login.html" class="fw-bold text-primary text-decoration-none">
+
+                            Sign In
+
+                        </a>
+
+                    </p>
+
+
+                    <!-- Home -->
+
+                    <div class="text-center">
+
+                        <a href="/index.html" class="btn btn-outline-dark btn-sm rounded-pill px-4">
+
+                            <i class="bi bi-house"></i>
+                            Back to Home
+
+                        </a>
+
+                    </div>
 
                 </div>
+
             </div>
 
         </div>

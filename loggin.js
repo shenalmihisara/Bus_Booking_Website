@@ -26,7 +26,7 @@ document.getElementById("btnLogin").addEventListener("click", function() {
       if (result.result === true) {
         alert("login successful");
 
-        window.location.href = "login_home_admin.html"
+        window.location.href = "user_home.html"
       } else {
         alert("invalid user name or password");
       }

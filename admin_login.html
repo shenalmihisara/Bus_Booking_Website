@@ -17,20 +17,16 @@
     <div class="container-fluid">
         <div class="row min-vh-100">
 
-            <!-- Left side - Image -->
             <div class="col-12 col-md-7 p-0">
                 <img src="/image/ChatGPT Image Aug 10, 2026, 01_18_14 PM.png"
                     class="img-fluid w-100 h-100 object-fit-cover" alt="My Image">
             </div>
 
-            <!-- Right Side Login -->
-            <!-- Right Side - Premium Admin Login -->
             <div class="col-12 col-md-5 d-flex align-items-center justify-content-center p-4">
 
                 <div class="card border-0 shadow-lg rounded-4 p-4 w-100"
                     style="max-width: 420px; background: rgba(255,255,255,0.98);">
 
-                    <!-- Brand -->
                     <div class="text-center mb-4">
 
                         <div class="bg-black text-white rounded-3 d-inline-block px-4 py-2 shadow-sm">
@@ -41,11 +37,8 @@
 
                     </div>
 
-
-                    <!-- Admin Header -->
                     <div class="text-center mb-4">
 
-                        <!-- Admin Icon -->
                         <div class="d-flex justify-content-center mb-3">
                             <div class="bg-dark text-white rounded-circle d-flex
                             align-items-center justify-content-center shadow" style="width: 65px; height: 65px;">
@@ -66,7 +59,6 @@
                     </div>
 
 
-                    <!-- Login Type -->
                     <div class="d-flex justify-content-center gap-2 mb-4">
 
                         <a href="/login.html" class="btn btn-outline-primary btn-sm px-4 rounded-pill">
@@ -85,8 +77,6 @@
 
                     </div>
 
-
-                    <!-- Admin PIN -->
                     <div class="mb-4">
 
                         <label for="password" class="form-label fw-semibold small">
@@ -103,7 +93,7 @@
 
                             </span>
 
-                            <input id="password" type="password" placeholder="Enter Admin PIN"
+                            <input id="Admin_pin" type="password" placeholder="Enter Admin PIN"
                                 class="form-control border-start-0 py-2">
 
                         </div>
@@ -114,10 +104,8 @@
 
                     </div>
 
-
-                    <!-- Login Button -->
                     <button id="btnLogin" type="button" class="btn btn-dark w-100 py-2 rounded-3
-                   fw-semibold shadow-sm mb-4">
+                   fw-semibold shadow-sm mb-4" onclick="AdminLoginOnAction()">
 
                         <i class="bi bi-box-arrow-in-right me-1"></i>
 
@@ -125,8 +113,6 @@
 
                     </button>
 
-
-                    <!-- Divider -->
                     <div class="d-flex align-items-center mb-3">
 
                         <hr class="flex-grow-1">
@@ -162,7 +148,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/app.js"></script>
+    <script src="admin_login.js"></script>
     <script src="/loggin.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
